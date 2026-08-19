@@ -5,21 +5,21 @@ class AiDispatch < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.5.0/ai-dispatch-darwin-arm64.tar.gz"
-      sha256 "05d3f5412705620bad47b7ed05a76e654716aaadabbcdf068644e377e26a53cb"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.6.1/ai-dispatch-darwin-arm64.tar.gz"
+      sha256 "1b69c1c3504792741194ef81b5f41bea962a830173df8f927bef7cbe947c4e82"
     else
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.5.0/ai-dispatch-darwin-amd64.tar.gz"
-      sha256 "b5a6d596cd1607f7249f13178840b65bcd5c59195c4be59d6ef802320c2bc9eb"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.6.1/ai-dispatch-darwin-amd64.tar.gz"
+      sha256 "a4113547c48b8ab606de0e24fd74df0f105041f486905a2e8ef74950a538fa0c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.5.0/ai-dispatch-linux-arm64.tar.gz"
-      sha256 "59759895a25db5646a13cf28804064c24f58ee76b441eab459c340e8e7a04670"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.6.1/ai-dispatch-linux-arm64.tar.gz"
+      sha256 "60c1b2b3c9f93df93a92611928935d9124e4da1a2d437c78a3b9061b080c19f7"
     else
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.5.0/ai-dispatch-linux-amd64.tar.gz"
-      sha256 "c9d214586e730017cc3812cdc3b443fe1f4f99e75bb427dce94755e132514f0e"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.6.1/ai-dispatch-linux-amd64.tar.gz"
+      sha256 "ba08756ddc6eea109a7778b0e46319f9f02624a8469b727a4b98c828b4a73bf5"
     end
   end
 
