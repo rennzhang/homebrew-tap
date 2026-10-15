@@ -1,26 +1,26 @@
 class AiDispatch < Formula
   desc "Dispatch tasks to local AI coding CLIs"
   homepage "https://github.com/rennzhang/ai-dispatch"
-  version "0.7.4"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.7.4/ai-dispatch-darwin-arm64.tar.gz"
-      sha256 "4f135448ad6a298569b6b6d7c91fd416c99c98fe028d29d73f51e742be3556ad"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.10.0/ai-dispatch-darwin-arm64.tar.gz"
+      sha256 "138cbbe86839f4a2dfba7e9f2940730ff2943b6cb912d46fcb9c235e9111a821"
     else
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.7.4/ai-dispatch-darwin-amd64.tar.gz"
-      sha256 "5b315134207fea306d95f73b9b8ac837f4a0f034deae68c637b132cdcf26c4fd"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.10.0/ai-dispatch-darwin-amd64.tar.gz"
+      sha256 "780b8416784d957c6232cea2416a3a26fa202b85311f9387dd82d543a9428e53"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.7.4/ai-dispatch-linux-arm64.tar.gz"
-      sha256 "3a72f47367aff029e5fb57898fec92c579edddf2c5a4c6293ecd59d169f1c310"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.10.0/ai-dispatch-linux-arm64.tar.gz"
+      sha256 "36abbe57631e6777541739e61e761d90a0e0a22835ca4d1f1cae4cfc5a703b27"
     else
-      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.7.4/ai-dispatch-linux-amd64.tar.gz"
-      sha256 "c3eecb0c39c1625ddae12754028dd84efed34b8ac221500bf6aee00ad83acf7d"
+      url "https://github.com/rennzhang/ai-dispatch/releases/download/v0.10.0/ai-dispatch-linux-amd64.tar.gz"
+      sha256 "b9eab45e6b392eeeed2927fce3451e6f9c2c5e9dd1fed64e5b281e09ba1292ed"
     end
   end
 
